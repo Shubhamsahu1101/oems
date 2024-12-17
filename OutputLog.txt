@@ -1,0 +1,562 @@
+{
+    "jsonrpc": "2.0",
+    "id": 9929,
+    "result": {
+        "enabled_features": [],
+        "access_token": "1764965311925.1YZJVkMo.X62NF6xPmhmqdBzu3u_bh1880VAx2Tm5oYhclKMHZW_3695Oko4WQ3k9JcI4ODfZ1NWCXWMkgfuZrhp-9ctSVhZ5vLI09L-pMuuh6zSfNl9_eBuN8V251AOO5RilwiCJn0OfUKRRI8aTQJLJ_hmLWImLR56AprXZoDYUEUXKZ4I1ZpIxhZd58aCvfK_QBZfef1kD6Om_XkrBkTDSDhGVTp9vIylUMl5Jk4V6OxB_gTlhQT9aoZByVpPZj6BOW5KzNtvA_PSjcJFBDYQuzTSGycz39mY",
+        "expires_in": 31536000,
+        "refresh_token": "1764965311925.1a9VCHyk.92hUo4Z2476oqBfXAhOvfMb7-rPl5inTv_z-psZ_zwTeml4PHIHFxHTjQj8H9VlhD2iMYY1-iVcw6Tj0ES22WLFVmdbPuUcARMJjWQEmkTLhE63aL0SsUuC1nzMR4pVyh0KCAFIAucKWe9ZbrmJcaofN7gE77MwIhjmuUtTdNptQoU_vivrs1HEd7Vo9zJ1ZQ212AXN8vYUQohHV2Z5NkQuVQe-UZT7BM2dSaTes0b98OQ6rBDTDv7qNHgaOzg_fEP9HISoiWYi3FSS4BJWuZUI8ww",
+        "scope": "connection trade:read_write account:read_write wallet:read_write mainaccount",
+        "token_type": "bearer"
+    },
+    "usIn": 1733429311925461,
+    "usOut": 1733429311925678,
+    "usDiff": 217,
+    "testnet": true
+}
+{
+    "jsonrpc": "2.0",
+    "id": 9930,
+    "result": {
+        "order": {
+            "label": "market01",
+            "price": 3000.0,
+            "direction": "buy",
+            "time_in_force": "good_til_cancelled",
+            "max_show": 1.0,
+            "instrument_name": "ETH-PERPETUAL",
+            "order_id": "ETH-15508224911",
+            "amount": 1.0,
+            "api": true,
+            "web": false,
+            "mmp": false,
+            "replaced": false,
+            "filled_amount": 0.0,
+            "last_update_timestamp": 1733429355284,
+            "post_only": false,
+            "reduce_only": false,
+            "average_price": 0.0,
+            "contracts": 1.0,
+            "order_state": "open",
+            "creation_timestamp": 1733429355284,
+            "order_type": "limit",
+            "risk_reducing": false,
+            "is_liquidation": false
+        },
+        "trades": []
+    },
+    "usIn": 1733429355282882,
+    "usOut": 1733429355287116,
+    "usDiff": 4234,
+    "testnet": true
+}
+{
+    "jsonrpc": "2.0",
+    "id": 9933,
+    "result": {
+        "order": {
+            "label": "market01",
+            "price": 3100.0,
+            "direction": "buy",
+            "time_in_force": "good_til_cancelled",
+            "max_show": 3.0,
+            "instrument_name": "ETH-PERPETUAL",
+            "order_id": "ETH-15508224911",
+            "amount": 3.0,
+            "api": true,
+            "web": false,
+            "mmp": false,
+            "replaced": true,
+            "filled_amount": 0.0,
+            "last_update_timestamp": 1733429384856,
+            "post_only": false,
+            "reduce_only": false,
+            "average_price": 0.0,
+            "contracts": 3.0,
+            "order_state": "open",
+            "creation_timestamp": 1733429355284,
+            "order_type": "limit",
+            "risk_reducing": false,
+            "is_liquidation": false
+        },
+        "trades": []
+    },
+    "usIn": 1733429384854194,
+    "usOut": 1733429384857006,
+    "usDiff": 2812,
+    "testnet": true
+}
+{
+    "jsonrpc": "2.0",
+    "id": 9932,
+    "result": {
+        "label": "market01",
+        "price": 3100.0,
+        "direction": "buy",
+        "time_in_force": "good_til_cancelled",
+        "max_show": 3.0,
+        "instrument_name": "ETH-PERPETUAL",
+        "order_id": "ETH-15508224911",
+        "amount": 3.0,
+        "api": true,
+        "web": false,
+        "mmp": false,
+        "cancel_reason": "user_request",
+        "replaced": true,
+        "filled_amount": 0.0,
+        "last_update_timestamp": 1733429409455,
+        "post_only": false,
+        "reduce_only": false,
+        "average_price": 0.0,
+        "contracts": 3.0,
+        "order_state": "cancelled",
+        "creation_timestamp": 1733429355284,
+        "order_type": "limit",
+        "risk_reducing": false,
+        "is_liquidation": false
+    },
+    "usIn": 1733429409454475,
+    "usOut": 1733429409455603,
+    "usDiff": 1128,
+    "testnet": true
+}
+{
+    "jsonrpc": "2.0",
+    "id": 9934,
+    "result": {
+        "timestamp": 1733429429467,
+        "state": "open",
+        "stats": {
+            "high": 4302.35,
+            "low": 3584.15,
+            "price_change": -0.2696,
+            "volume": 82569.790124,
+            "volume_usd": 330303007.0,
+            "volume_notional": 330303007.0
+        },
+        "change_id": 15508233226,
+        "index_price": 3838.79,
+        "instrument_name": "ETH-PERPETUAL",
+        "bids": [
+            [
+                3844.9,
+                105000.0
+            ]
+        ],
+        "asks": [
+            [
+                3846.9,
+                233.0
+            ]
+        ],
+        "last_price": 3846.9,
+        "settlement_price": 3853.03,
+        "min_price": 3653.1,
+        "max_price": 4037.65,
+        "open_interest": 2128967074,
+        "mark_price": 3845.37,
+        "interest_value": -4.273340458179432,
+        "best_ask_price": 3846.9,
+        "best_bid_price": 3844.9,
+        "estimated_delivery_price": 3838.79,
+        "best_ask_amount": 233.0,
+        "best_bid_amount": 105000.0,
+        "current_funding": 0.000964,
+        "funding_8h": 0.000438
+    },
+    "usIn": 1733429429573678,
+    "usOut": 1733429429573942,
+    "usDiff": 264,
+    "testnet": true
+}
+{
+    "jsonrpc": "2.0",
+    "id": 9937,
+    "result": [
+        "deribit_price_index.btc_usd"
+    ],
+    "usIn": 1733429452555801,
+    "usOut": 1733429452556001,
+    "usDiff": 200,
+    "testnet": true
+}
+{
+    "jsonrpc": "2.0",
+    "method": "subscription",
+    "params": {
+        "channel": "deribit_price_index.btc_usd",
+        "data": {
+            "timestamp": 1733429451573,
+            "price": 98726.63,
+            "index_name": "btc_usd"
+        }
+    }
+}
+{
+    "jsonrpc": "2.0",
+    "method": "subscription",
+    "params": {
+        "channel": "deribit_price_index.btc_usd",
+        "data": {
+            "timestamp": 1733429452580,
+            "price": 98727.34,
+            "index_name": "btc_usd"
+        }
+    }
+}
+{
+    "jsonrpc": "2.0",
+    "method": "subscription",
+    "params": {
+        "channel": "deribit_price_index.btc_usd",
+        "data": {
+            "timestamp": 1733429453587,
+            "price": 98731.48,
+            "index_name": "btc_usd"
+        }
+    }
+}
+{
+    "jsonrpc": "2.0",
+    "method": "subscription",
+    "params": {
+        "channel": "deribit_price_index.btc_usd",
+        "data": {
+            "timestamp": 1733429454594,
+            "price": 98733.27,
+            "index_name": "btc_usd"
+        }
+    }
+}
+{
+    "jsonrpc": "2.0",
+    "method": "subscription",
+    "params": {
+        "channel": "deribit_price_index.btc_usd",
+        "data": {
+            "timestamp": 1733429455601,
+            "price": 98736.93,
+            "index_name": "btc_usd"
+        }
+    }
+}
+{
+    "jsonrpc": "2.0",
+    "method": "subscription",
+    "params": {
+        "channel": "deribit_price_index.btc_usd",
+        "data": {
+            "timestamp": 1733429456608,
+            "price": 98745.44,
+            "index_name": "btc_usd"
+        }
+    }
+}
+{
+    "jsonrpc": "2.0",
+    "method": "subscription",
+    "params": {
+        "channel": "deribit_price_index.btc_usd",
+        "data": {
+            "timestamp": 1733429457615,
+            "price": 98754.29,
+            "index_name": "btc_usd"
+        }
+    }
+}
+{
+    "jsonrpc": "2.0",
+    "method": "subscription",
+    "params": {
+        "channel": "deribit_price_index.btc_usd",
+        "data": {
+            "timestamp": 1733429458622,
+            "price": 98778.34,
+            "index_name": "btc_usd"
+        }
+    }
+}
+{
+    "jsonrpc": "2.0",
+    "method": "subscription",
+    "params": {
+        "channel": "deribit_price_index.btc_usd",
+        "data": {
+            "timestamp": 1733429459629,
+            "price": 98784.37,
+            "index_name": "btc_usd"
+        }
+    }
+}
+{
+    "jsonrpc": "2.0",
+    "method": "subscription",
+    "params": {
+        "channel": "deribit_price_index.btc_usd",
+        "data": {
+            "timestamp": 1733429460636,
+            "price": 98783.65,
+            "index_name": "btc_usd"
+        }
+    }
+}
+{
+    "jsonrpc": "2.0",
+    "method": "subscription",
+    "params": {
+        "channel": "deribit_price_index.btc_usd",
+        "data": {
+            "timestamp": 1733429461643,
+            "price": 98778.73,
+            "index_name": "btc_usd"
+        }
+    }
+}
+{
+    "jsonrpc": "2.0",
+    "method": "subscription",
+    "params": {
+        "channel": "deribit_price_index.btc_usd",
+        "data": {
+            "timestamp": 1733429462650,
+            "price": 98721.64,
+            "index_name": "btc_usd"
+        }
+    }
+}
+{
+    "jsonrpc": "2.0",
+    "method": "subscription",
+    "params": {
+        "channel": "deribit_price_index.btc_usd",
+        "data": {
+            "timestamp": 1733429463657,
+            "price": 98698.55,
+            "index_name": "btc_usd"
+        }
+    }
+}
+{
+    "jsonrpc": "2.0",
+    "method": "subscription",
+    "params": {
+        "channel": "deribit_price_index.btc_usd",
+        "data": {
+            "timestamp": 1733429464664,
+            "price": 98674.21,
+            "index_name": "btc_usd"
+        }
+    }
+}
+{
+    "jsonrpc": "2.0",
+    "method": "subscription",
+    "params": {
+        "channel": "deribit_price_index.btc_usd",
+        "data": {
+            "timestamp": 1733429465671,
+            "price": 98629.64,
+            "index_name": "btc_usd"
+        }
+    }
+}
+{
+    "jsonrpc": "2.0",
+    "method": "subscription",
+    "params": {
+        "channel": "deribit_price_index.btc_usd",
+        "data": {
+            "timestamp": 1733429466678,
+            "price": 98635.94,
+            "index_name": "btc_usd"
+        }
+    }
+}
+{
+    "jsonrpc": "2.0",
+    "method": "subscription",
+    "params": {
+        "channel": "deribit_price_index.btc_usd",
+        "data": {
+            "timestamp": 1733429467685,
+            "price": 98672.54,
+            "index_name": "btc_usd"
+        }
+    }
+}
+{
+    "jsonrpc": "2.0",
+    "method": "subscription",
+    "params": {
+        "channel": "deribit_price_index.btc_usd",
+        "data": {
+            "timestamp": 1733429468692,
+            "price": 98699.85,
+            "index_name": "btc_usd"
+        }
+    }
+}
+{
+    "jsonrpc": "2.0",
+    "method": "subscription",
+    "params": {
+        "channel": "deribit_price_index.btc_usd",
+        "data": {
+            "timestamp": 1733429469700,
+            "price": 98714.48,
+            "index_name": "btc_usd"
+        }
+    }
+}
+{
+    "jsonrpc": "2.0",
+    "method": "subscription",
+    "params": {
+        "channel": "deribit_price_index.btc_usd",
+        "data": {
+            "timestamp": 1733429470707,
+            "price": 98700.59,
+            "index_name": "btc_usd"
+        }
+    }
+}
+{
+    "jsonrpc": "2.0",
+    "method": "subscription",
+    "params": {
+        "channel": "deribit_price_index.btc_usd",
+        "data": {
+            "timestamp": 1733429471714,
+            "price": 98706.5,
+            "index_name": "btc_usd"
+        }
+    }
+}
+{
+    "jsonrpc": "2.0",
+    "method": "subscription",
+    "params": {
+        "channel": "deribit_price_index.btc_usd",
+        "data": {
+            "timestamp": 1733429472721,
+            "price": 98718.93,
+            "index_name": "btc_usd"
+        }
+    }
+}
+{
+    "jsonrpc": "2.0",
+    "method": "subscription",
+    "params": {
+        "channel": "deribit_price_index.btc_usd",
+        "data": {
+            "timestamp": 1733429473728,
+            "price": 98734.69,
+            "index_name": "btc_usd"
+        }
+    }
+}
+{
+    "jsonrpc": "2.0",
+    "method": "subscription",
+    "params": {
+        "channel": "deribit_price_index.btc_usd",
+        "data": {
+            "timestamp": 1733429474735,
+            "price": 98741.74,
+            "index_name": "btc_usd"
+        }
+    }
+}
+{
+    "jsonrpc": "2.0",
+    "id": 9937,
+    "result": [
+        "deribit_price_index.btc_usd"
+    ],
+    "usIn": 1733429475536069,
+    "usOut": 1733429475536202,
+    "usDiff": 133,
+    "testnet": true
+}
+{
+    "jsonrpc": "2.0",
+    "id": 9929,
+    "result": {
+        "enabled_features": [],
+        "access_token": "1765002059580.1VKTYfy4.TN-toPZG5Ta-96ZEuE_zr_HorFHJ1S4TQefqA-MeAN7vrqHeEw8EYFMgrEI9WO9tPYLsfTkkU6QEGIF5VctA22h1Cyg-P4G8AB1IxfEsMvCdm50RvTV4YR8oqcPdU0Ppav8xis8Fw-WmNm2vGMi_H5NCyzFEyLN79Dp28ZsjLyF9QlV8gFWDmDDorRN5fNsEN_wSof-xBioTs7Px1ZZDa6hjtFSmmRst3lm66wgzDjCiMNPqGy2NjzD0xBt5yI8m7e-pxbpnoV3f-JLJ_OKCgTas2fI",
+        "expires_in": 31536000,
+        "refresh_token": "1765002059580.1cqNGeAO.InDIoXawDay-avtTbNcasWr2R-vhYLZo2ddCdN6CSBGKEAFMy1MDAnSQM4zx_MvIceG8bL7Itk8VsacknoJGkzJQiOdJJVfd2p2LJSswuWtbQelM6tbfXcKXRd96l7OofddB4IjAOSLO2QqiNeUqlT1bNx2lVxqdnZHIoh8up5ZBA-PjFyALJmnANhcPv914ZefVHx4eKPMem1CqjOUsh2mhfecPBMGgYjjOBp6RYFBxbyOdQZSOvyEdyepn1syW_h_KCoweKFvXgekBEURDJ654dQ",
+        "scope": "connection trade:read_write account:read_write wallet:read_write mainaccount",
+        "token_type": "bearer"
+    },
+    "usIn": 1733466059580076,
+    "usOut": 1733466059580256,
+    "usDiff": 180,
+    "testnet": true
+}
+{
+    "jsonrpc": "2.0",
+    "id": 9930,
+    "result": {
+        "order": {
+            "label": "market01",
+            "price": 4106.7,
+            "direction": "buy",
+            "time_in_force": "good_til_cancelled",
+            "max_show": 1.0,
+            "instrument_name": "ETH-PERPETUAL",
+            "order_id": "ETH-15511185620",
+            "amount": 1.0,
+            "api": true,
+            "web": false,
+            "mmp": false,
+            "replaced": false,
+            "filled_amount": 1.0,
+            "last_update_timestamp": 1733466102841,
+            "post_only": false,
+            "reduce_only": false,
+            "average_price": 3901.65,
+            "contracts": 1.0,
+            "order_state": "filled",
+            "creation_timestamp": 1733466102841,
+            "order_type": "market",
+            "risk_reducing": false,
+            "is_liquidation": false
+        },
+        "trades": [
+            {
+                "label": "market01",
+                "timestamp": 1733466102841,
+                "state": "filled",
+                "price": 3901.65,
+                "direction": "buy",
+                "index_price": 3910.34,
+                "profit_loss": 0.0,
+                "instrument_name": "ETH-PERPETUAL",
+                "trade_seq": 18495956,
+                "order_id": "ETH-15511185620",
+                "amount": 1.0,
+                "api": true,
+                "mark_price": 3911.1,
+                "matching_id": null,
+                "tick_direction": 0,
+                "fee": 1.3e-7,
+                "mmp": false,
+                "post_only": false,
+                "reduce_only": false,
+                "self_trade": false,
+                "contracts": 1.0,
+                "trade_id": "ETH-34421267",
+                "fee_currency": "ETH",
+                "order_type": "market",
+                "risk_reducing": false,
+                "liquidity": "T"
+            }
+        ]
+    },
+    "usIn": 1733466102840646,
+    "usOut": 1733466102842294,
+    "usDiff": 1648,
+    "testnet": true
+}
